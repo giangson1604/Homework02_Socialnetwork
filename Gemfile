@@ -1,5 +1,9 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
+gem 'devise'
+
+gem 'bcrypt-ruby', '~> 3.0.0', :require => 'bcrypt'
+gem 'bcrypt'
 
 gem 'bootstrap-sass', '~> 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
